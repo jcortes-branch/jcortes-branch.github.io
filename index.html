@@ -1477,33 +1477,7 @@
         </div>
     </div>
 
-    <div amp-access="NOT access" amp-access-hide class="login-section-container">
-        <div class="login-shadow">
-            <div class="login-shadow-center"></div>
-        </div>
-        <div class="login-section">
-            <p class="login-thanks">THANKS FOR READING</p>
-            <p class="login-header">The Wall Street Journal</p>
-
-            <amp-list width="auto" height="170" layout="fixed-height" credentials="include" src="https://amp.wsj.com/api/marketing/login/wsj">
-                <div fallback>
-                    <p class="login-summary">Continue Reading Your Article With a WSJ Membership
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                    </p>
-                    <a class="join" href="https://buy.wsj.com/">JOIN NOW</a>
-                </div>
-                <template type="amp-mustache">
-                    <p class="login-summary">{{{message}}}</p>
-                    <a class="join" href="{{link}}">JOIN NOW</a>
-                </template>
-            </amp-list>
-
-            <a class="login" on="tap:amp-access.login" href="#">LOG IN</a>
-        </div>
-    </div>
+    
     <amp-geo layout="nodisplay">
         <script type="application/json">
             { "ISOCountryGroups": { "eu": ["ad", "ai", "at", "aw", "ax", "be", "bg", "bl", "bm", "cw", "cy", "cz", "de", "dk", "ee", "es", "fi", "fk", "fr", "gb", "gf", "gg", "gi", "gl", "gp", "gr", "gs", "hr", "hu", "ie", "io", "it", "je", "ky", "li", "lt", "lu", "lv", "mc", "me", "mf", "mq", "ms", "mt", "nc", "nl", "pf", "pl", "pm", "pn", "pt", "re", "ro", "se", "sh", "si", "sk", "sm", "sx", "tc", "tf", "va", "vg", "wf", "yt"] } }
